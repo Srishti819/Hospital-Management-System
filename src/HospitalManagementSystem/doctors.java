@@ -12,6 +12,7 @@ public class doctors {
     public doctors(Connection connection, Scanner scanner){
         this.connection = connection;
         this.scanner=scanner;
+        
     }
 
     // view doctors method 
