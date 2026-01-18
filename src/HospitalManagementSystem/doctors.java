@@ -30,6 +30,7 @@ public class doctors {
                 System.out.printf("|%-3s|%-22s|%-10s|%-16s|\n" , id, name, specialization);
                 System.out.println("________________+___________________________+______________+________________");
             }
+
         }catch(SQLException e){
             e.printStackTrace();
         }
