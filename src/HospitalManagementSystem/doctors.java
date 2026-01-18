@@ -14,6 +14,8 @@ public class doctors {
         this.scanner=scanner;
     }
 
+    // view doctors method 
+
     public void viewDoctors(){
         String query = "SELECT * FROM doctors";
         try{
